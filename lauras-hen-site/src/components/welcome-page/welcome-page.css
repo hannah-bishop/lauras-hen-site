@@ -1,0 +1,14 @@
+.logo {
+    width: 80%;
+    padding-top: 150px;
+    animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
