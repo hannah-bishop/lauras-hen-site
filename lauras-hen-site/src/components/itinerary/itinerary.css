@@ -1,0 +1,29 @@
+.itinerary {
+    animation: fade-in 3s;
+}
+
+.logo {
+    width: 50%;
+    padding-top: 10px;
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.link {
+    color: inherit;
+}
+
+
+.itinerary-text {
+    font-size: 20px;
+    text-shadow: 0 0 10px #F72D95, 0 0 20px #F72D95, 0 0 30px #F72D95, 0 0 40px #F72D95, 0 0 50px #F72D95;
+    padding:40px;
+}
+
+.list-item {
+    padding: 5px;
+    margin: 0px;
+}
