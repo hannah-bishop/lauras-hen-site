@@ -58,6 +58,20 @@ export const LauraBingo: React.FunctionComponent = () => {
     return (
       <div className="fade-in">
         <img src={require("assets/logo.png")} className="logo" alt="logo"></img>
+        <div className="itinerary-text">
+          <h2 className="underline">Laura Bingo</h2>
+          <p className="list-item">Spills something</p>
+          <p className="list-item">Blows her nose multiple times</p>
+          <p className="list-item">Says how much she loves Jamie</p>
+          <p className="list-item">Mentions how short she is</p>
+          <p className="list-item">Mentions how stressful teaching is</p>
+          <p className="list-item">Does a slut drop</p>
+          <p className="list-item">Says 'OMG Jamie does that'</p>
+          <p className="list-item">
+            Starts eating out of the fridge when drunk
+          </p>
+          <p className="list-item">Laughs at a shit joke</p>
+        </div>
       </div>
     );
   }
