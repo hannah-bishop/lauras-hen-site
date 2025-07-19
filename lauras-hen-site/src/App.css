@@ -16,3 +16,23 @@
     transform: rotate(360deg);
   }
 }
+
+.itinerary-text {
+  font-size: 20px;
+  text-shadow:
+    0 0 10px #f72d95,
+    0 0 20px #f72d95,
+    0 0 30px #f72d95,
+    0 0 40px #f72d95,
+    0 0 50px #f72d95;
+  padding: 40px;
+}
+
+.fade-in {
+  animation: fade-in 3s;
+}
+
+.logo {
+  width: 50%;
+  padding-top: 10px;
+}
