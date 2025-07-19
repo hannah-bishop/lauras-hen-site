@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./laura-bingo.css";
+import { useNavigate } from "react-router-dom";
 
 type NameEntry = {
   codeName: string;
@@ -26,6 +27,12 @@ export const LauraBingo: React.FunctionComponent = () => {
     setCodeWord(event.target.value);
   };
 
+  const navigate = useNavigate();
+
+  const handleImageClick = () => {
+    navigate("/lauras-hen-site/home-page");
+  };
+
   const handleClick = () => {
     if (!names) {
       console.error("Names data is not loaded yet.");
@@ -44,7 +51,12 @@ export const LauraBingo: React.FunctionComponent = () => {
   if (!showLauraBingo) {
     return (
       <div className="fade-in">
-        <img src={require("assets/logo.png")} className="logo" alt="logo"></img>
+        <img
+          src={require("assets/logo.png")}
+          className="logo"
+          alt="logo"
+          onClick={handleImageClick}
+        ></img>
         <input type="text" value={codeWord} onChange={handleChange} />
         <button onClick={handleClick} className="button">
           ENTER
@@ -57,20 +69,25 @@ export const LauraBingo: React.FunctionComponent = () => {
   } else {
     return (
       <div className="fade-in">
-        <img src={require("assets/logo.png")} className="logo" alt="logo"></img>
-        <div className="itinerary-text">
+        <img
+          src={require("assets/logo.png")}
+          className="logo"
+          alt="logo"
+          onClick={handleImageClick}
+        ></img>
+        <div className="itinerary-text fade-in">
           <h2 className="underline">Laura Bingo</h2>
-          <p className="list-item">Spills something</p>
-          <p className="list-item">Blows her nose multiple times</p>
-          <p className="list-item">Says how much she loves Jamie</p>
-          <p className="list-item">Mentions how short she is</p>
-          <p className="list-item">Mentions how stressful teaching is</p>
-          <p className="list-item">Does a slut drop</p>
-          <p className="list-item">Says 'OMG Jamie does that'</p>
+          <p className="list-item">- Spills something</p>
+          <p className="list-item">- Blows her nose multiple times</p>
+          <p className="list-item">- Says how much she loves Jamie</p>
+          <p className="list-item">- Mentions how short she is</p>
+          <p className="list-item">- Mentions how stressful teaching is</p>
+          <p className="list-item">- Does a slut drop</p>
+          <p className="list-item">- Says 'OMG Jamie does that'</p>
           <p className="list-item">
-            Starts eating out of the fridge when drunk
+            - Starts eating out of the fridge when drunk
           </p>
-          <p className="list-item">Laughs at a shit joke</p>
+          <p className="list-item">- Laughs at a shit joke</p>
         </div>
       </div>
     );

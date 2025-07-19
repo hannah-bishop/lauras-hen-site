@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./secret-mission.css";
+import { useNavigate } from "react-router-dom";
 
 type NameEntry = {
   codeName: string;
@@ -56,10 +57,21 @@ export const SecretMission: React.FunctionComponent = () => {
     }
   };
 
+  const navigate = useNavigate();
+
+  const handleImageClick = () => {
+    navigate("/lauras-hen-site/home-page");
+  };
+
   if (!showLaura) {
     return (
       <div className="fade-in">
-        <img src={require("assets/logo.png")} className="logo" alt="logo"></img>
+        <img
+          src={require("assets/logo.png")}
+          className="logo"
+          alt="logo"
+          onClick={handleImageClick}
+        ></img>
         <input type="text" value={codeWord} onChange={handleChange} />
         <button onClick={handleClick} className="button">
           ENTER
@@ -72,7 +84,12 @@ export const SecretMission: React.FunctionComponent = () => {
   } else {
     return (
       <div className="fade-in">
-        <img src={require("assets/logo.png")} className="logo" alt="logo"></img>
+        <img
+          src={require("assets/logo.png")}
+          className="logo"
+          alt="logo"
+          onClick={handleImageClick}
+        ></img>
         <div className="mission-box fade-in">
           <h1>Hello '{codeName}', Your Secret Mission Is Below:</h1>
           <p>Target: {target}</p>
