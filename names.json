@@ -1,0 +1,72 @@
+{
+  "JesseQuickdraw": {
+    "codeName": "Jesse Quickdraw",
+    "realName": "Jess",
+    "target": "Molly",
+    "location": "Kitchen",
+    "object": "Remote Control"
+  },
+  "SassySpurs": {
+    "codeName": "Sassy Spurs",
+    "realName": "Katie",
+    "target": "Mary",
+    "location": "Living Room",
+    "object": "Mug"
+  },
+  "LassoLady": {
+    "codeName": "Lasso Lady",
+    "realName": "Lucy",
+    "target": "Ella",
+    "location": "Bedroom",
+    "object": "Book"
+  },
+  "DustyBoots": {
+    "codeName": "Dusty Boots",
+    "realName": "Molly",
+    "target": "Holly",
+    "location": "Bathroom",
+    "object": "Hairbrush"
+  },
+  "RodeoRose": {
+    "codeName": "Rodeo Rose",
+    "realName": "Mary",
+    "target": "Bethan",
+    "location": "Dining Room",
+    "object": "Napkin"
+  },
+  "BroncoBelle": {
+    "codeName": "Bronco Belle",
+    "realName": "Bethan",
+    "target": "Jess",
+    "location": "Hallway",
+    "object": "Spatula"
+  },
+  "WhiskeyWhisperer": {
+    "codeName": "Whiskey Whisperer",
+    "realName": "Holly",
+    "target": "Laura",
+    "location": "Garden",
+    "object": "Flashlight"
+  },
+  "SilverSixShooter": {
+    "codeName": "Silver Six-Shooter",
+    "realName": "Ella",
+    "target": "Katie",
+    "location": "Bedroom",
+    "object": "Wallet"
+  },
+  "BridalBuckaroo": {
+    "codeName": "Bridal Buckaroo",
+    "realName": "Laura",
+    "target": "Lucy",
+    "location": "Stairs",
+    "object": "Sunglasses"
+  },
+  "CowStorm": {
+    "codeName": "Cow Storm",
+    "realName": "Hannah",
+    "target": null,
+    "location": null,
+    "object": null
+  }
+}
