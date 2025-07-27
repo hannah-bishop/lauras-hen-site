@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lauras-hen-site/static/css/main.a0847a8d.css",
-    "main.js": "/lauras-hen-site/static/js/main.298c4235.js",
+    "main.js": "/lauras-hen-site/static/js/main.76dce996.js",
     "static/js/453.b5b884c6.chunk.js": "/lauras-hen-site/static/js/453.b5b884c6.chunk.js",
     "static/media/welcome-logo.png": "/lauras-hen-site/static/media/welcome-logo.0f5635a699ca39d5e7b2.png",
     "static/media/logo.png": "/lauras-hen-site/static/media/logo.1fca2e98a8fc4b809a48.png",
     "index.html": "/lauras-hen-site/index.html",
     "main.a0847a8d.css.map": "/lauras-hen-site/static/css/main.a0847a8d.css.map",
-    "main.298c4235.js.map": "/lauras-hen-site/static/js/main.298c4235.js.map",
+    "main.76dce996.js.map": "/lauras-hen-site/static/js/main.76dce996.js.map",
     "453.b5b884c6.chunk.js.map": "/lauras-hen-site/static/js/453.b5b884c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0847a8d.css",
-    "static/js/main.298c4235.js"
+    "static/js/main.76dce996.js"
   ]
 }
