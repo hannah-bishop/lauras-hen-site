@@ -60,7 +60,7 @@ export const SecretMission: React.FunctionComponent = () => {
   const navigate = useNavigate();
 
   const handleImageClick = () => {
-    navigate("/lauras-hen-site/home-page");
+    navigate("/home-page");
   };
 
   if (!showLaura) {

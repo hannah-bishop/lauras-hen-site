@@ -30,7 +30,7 @@ export const LauraBingo: React.FunctionComponent = () => {
   const navigate = useNavigate();
 
   const handleImageClick = () => {
-    navigate("/lauras-hen-site/home-page");
+    navigate("/home-page");
   };
 
   const handleClick = () => {

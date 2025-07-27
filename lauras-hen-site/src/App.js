@@ -12,14 +12,11 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/lauras-hen-site/" element={<WelcomePage />} />
-          <Route path="/lauras-hen-site/home-page/" element={<HomePage />} />
-          <Route path="/lauras-hen-site/itinerary" element={<Itinerary />} />
-          <Route
-            path="/lauras-hen-site/secret-mission"
-            element={<SecretMission />}
-          />
-          <Route path="/lauras-hen-site/laura-bingo" element={<LauraBingo />} />
+          <Route path="" element={<WelcomePage />} />
+          <Route path="/home-page" element={<HomePage />} />
+          <Route path="/itinerary" element={<Itinerary />} />
+          <Route path="/secret-mission" element={<SecretMission />} />
+          <Route path="/laura-bingo" element={<LauraBingo />} />
           <Route path="*" element={<WelcomePage />} />
         </Routes>
       </Router>

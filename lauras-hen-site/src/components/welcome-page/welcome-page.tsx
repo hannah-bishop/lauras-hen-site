@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const WelcomePage: React.FunctionComponent = () => {
   return (
     <div>
-      <Link to="/lauras-hen-site/home-page">
+      <Link to="/home-page">
         <img
           src={require("assets/welcome-logo.png")}
           className="logo-home"
