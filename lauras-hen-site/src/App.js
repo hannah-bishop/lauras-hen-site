@@ -20,6 +20,7 @@ function App() {
             element={<SecretMission />}
           />
           <Route path="/lauras-hen-site/laura-bingo" element={<LauraBingo />} />
+          <Route path="*" element={<WelcomePage />} />
         </Routes>
       </Router>
     </div>
