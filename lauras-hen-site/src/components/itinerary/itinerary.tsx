@@ -24,8 +24,8 @@ export const Itinerary: React.FunctionComponent = () => {
         <p className="list-item">7pm: Slumber Party & Games</p>
         <h2 className="underline">Saturday</h2>
         <p className="list-item">11am: Prosecco Brunch</p>
-        <p className="list-item">1pm: Sports Day</p>
-        <p className="list-item">2.30pm: Wine Tasting</p>
+        <p className="list-item">12.30pm: Sports Day</p>
+        <p className="list-item">2pm: Wine Tasting</p>
         <p className="list-item">4pm: Early Dinner</p>
         <p className="list-item">6pm: Carraige into town</p>
         <p className="list-item">
